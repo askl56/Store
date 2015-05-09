@@ -8,10 +8,7 @@
  * Controller of the storeApp
  */
 angular.module('storeApp')
-  .controller('StoreCtrl', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
-  });
+    .controller('StoreCtrl', function($scope) {
+        $scope.categories = categories;
+        console.log(categories);
+    });
